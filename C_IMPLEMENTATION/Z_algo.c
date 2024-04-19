@@ -61,6 +61,7 @@ void search(const char *text,const char *pattern) {
            patternfound=1; 
        }
     }
+	//pattern not found
      if(patternfound==0) {
         printf("Pattern Not Found\n");
     }
